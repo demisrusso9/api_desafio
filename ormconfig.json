@@ -1,0 +1,14 @@
+{
+   "type": "mysql",
+   "host": "localhost",
+   "port": 3306,
+   "username": "root",
+   "password": "root",
+   "database": "desafio_compasso",
+   "synchronize": true,
+   "logging": false,
+   "entities": ["src/api/models/*.ts"],
+   "cli": {
+      "entitiesDir": "src/api/models"
+   }
+}
